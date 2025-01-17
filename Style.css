@@ -1,0 +1,33 @@
+.table {
+    display: flex;
+}
+
+.column {
+    margin-bottom: 1em;
+    width: 50%;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.row {
+    border: 0px black solid;
+    height: 3em;
+    margin: auto;
+    width: 100%;
+}
+
+.p {
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.column a, h3 a, a {
+	text-decoration:none;
+	color:grey;
+}
+
+.column a:hover, h3 a:hover, a:hover {
+	color:blue;
+	}

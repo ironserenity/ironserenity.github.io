@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>Videos</title>
+   	<link>.</link>
+        <generator>jAlbum 36.1</generator>
+   		<description></description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+        <item>
+            <title>05 - Bird On The Wire</title>
+            <link>slides/05%20-%20Bird%20On%20The%20Wire.mp4</link>
+            <pubDate>Mon, 30 Dec 2024 19:35:05 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/05%20-%20Bird%20On%20The%20Wire.jpg" width="267" height="200"/>
+            <media:content  url="slides/05%20-%20Bird%20On%20The%20Wire.mp4" width="640" height="480"/>
+            <jalbum:original url="slides/05%20-%20Bird%20On%20The%20Wire.mp4" width="640" height="480" fileSize="729410864"/>
+            <guid isPermaLink="false">slides/05%20-%20Bird%20On%20The%20Wire.jpg</guid>
+        </item>
+        <item>
+            <title>04 - Satisfied</title>
+            <link>slides/04%20-%20Satisfied.mp4</link>
+            <pubDate>Mon, 30 Dec 2024 19:35:05 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/04%20-%20Satisfied.jpg" width="267" height="200"/>
+            <media:content  url="slides/04%20-%20Satisfied.mp4" width="640" height="480"/>
+            <jalbum:original url="slides/04%20-%20Satisfied.mp4" width="640" height="480" fileSize="496524606"/>
+            <guid isPermaLink="false">slides/04%20-%20Satisfied.jpg</guid>
+        </item>
+        <item>
+            <title>11 - Gone Daddy Gone_1</title>
+            <link>slides/11%20-%20Gone%20Daddy%20Gone_1.mp4</link>
+            <pubDate>Mon, 30 Dec 2024 19:35:05 +0000</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/11%20-%20Gone%20Daddy%20Gone_1.jpg" width="267" height="200"/>
+            <media:content  url="slides/11%20-%20Gone%20Daddy%20Gone_1.mp4" width="640" height="480"/>
+            <jalbum:original url="slides/11%20-%20Gone%20Daddy%20Gone_1.mp4" width="640" height="480" fileSize="493743850"/>
+            <guid isPermaLink="false">slides/11%20-%20Gone%20Daddy%20Gone_1.jpg</guid>
+        </item>
+    </channel>
+</rss>

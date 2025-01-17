@@ -1,0 +1,31 @@
+<div style="margin-top:50vh" align="center">
+
+Music -> <a href="../index.html">Singles</a> -> Chilled Out Blues
+<br/>
+<h3>Chilled Out Blues</h3>
+[Instrumental]
+
+[Artwork 300x300 linking to c.700x700]
+[Preview - 30 second clip] - on other hd? or rip from apple/amazon?
+
+<br/>
+To download this song, buy the album <a href="../Albums/Instrumentals/index.html">Instrumentals</a>
+Para escargar, comprar el album <a href="../Albums/Instrumentals/index.html">Instrumentals</a> [Instrumentalas]
+<br/><br/>
+
+<h4>Streaming</h4>
+Alternatively, stream this song on the following platforms:</br>
+<a href=""><img height="50" src="../../Listen/AppleMusic500x281.webp" border="0"/></a>
+<a href="">Apple Music / iTunes</a>
+<br/><br/>
+<a href=""><img height="50" src="../../Listen/music-service_amazon.webp" border="0"/></a>
+<a href="">Amazon</a>
+<br/><br/>
+
+</div>
+
+<br/><br/>
+<!-- Mailing List Link: https://ironserenity.kit.com/2f36474e88 -->
+<div style="margin-top:50vh" align="center">
+<script async data-uid="2f36474e88" src="https://ironserenity.kit.com/2f36474e88/index.js"></script>
+</div>
