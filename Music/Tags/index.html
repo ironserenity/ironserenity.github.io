@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="../../Style.css" rel="stylesheet" type="text/css">
+
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+        $('#demoCloud1').tagCloud({
+            tag: {
+                color: '#444444',
+                backgroundColor: '#f8f8cc'
+            }
+        });
+        let options = {
+            container: {
+                width: 960,
+                //fontFamily: '"Times New Roman", Times, serif',
+                backgroundColor: '#fafaf8'
+            },
+            tag: {
+                format:      '<a href="{tag.link}">{tag.name}</a>',
+                maxFontSize: 45,    // max font size in pixels
+                minFontSize: 8,     // min font size in pixels
+                textShadow:  true   // text shadow, enabled for better visibility
+            },
+            data: [
+                { name: 'Acoustic',          link: 'Acoustic/', weight: 40 },
+                { name: 'Blues',         link: 'Blues/', weight: 40, tooltip: 'Songs and Albums tagged Blues' },
+                { name: 'Electric-Guitar',           link: 'Electric-Guitar/', weight: 60 },
+                { name: 'Guitar-Solo',          link: 'Guitar-Solo/', weight: 35 },
+                { name: 'Harmonica',    link: 'Harmonica', weight: 30 },
+                { name: 'Instrumental',        link: 'Instrumental/', weight: 50 },
+                { name: 'Rock-Blues',           link: 'Rock-Blues/', weight: 30 },
+                { name: 'Singer-Songwriter',           link: 'Singer-Songwriter/', weight: 30 }
+            ]
+        }
+        $('#demoCloud2').tagCloud(options);
+    });
+</script>
+
+<link rel="stylesheet" href="jquery.tagcloud.css" />
+<style type="text/css">
+        html,* { font-family: 'Inter'; box-sizing: border-box; }
+	body { background-color: #fafafa; line-height:1.6;}
+	.lead { font-size: 1.5rem; font-weight: 300; }
+	.container { margin: 150px auto; max-width: 960px; }
+    h1 { font-size: 2em; color: #000000; margin: 3px 0 16px 0; }
+    h2 { font-size: 1.2em; color: #000000; margin: 3px 0 14px 0; }
+    hr { border: 0; border-bottom: 1px solid #aaa; }
+    textarea {
+        color: white;
+        background-color: #333;
+        padding: 3px 3px;
+    }
+</style>
+
+<link href="" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="table" align="center" width="100%">
+	<div class="column">&nbsp;</div>
+	<div class="column">
+<a href="https://ironserenity.net"><img src="../../../Iron_Serenity_Logo_460x70.png" height="40" border="0" alt="Iron Serenity Logo"></a>
+<p>Original Rock-Blues Music</p>
+	</div>
+	<div class="column" valign=top>
+
+<!-- Menu ======================================================================= -->
+&nbsp;<a href="../Albums/index.html">Music</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Photos/index.html">Photos</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Videos/index.html">Videos</a>&nbsp;&nbsp;| 
+&nbsp;<a href="../../../About.html">About</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Contact/index.html">Contact</a>&nbsp;
+<!-- End Menu ======================================================================= -->
+
+	</div>
+	<div class="column">&nbsp;</div>
+</div>
+
+<div align=center>
+
+<h3><a href="../Albums/index.html">Albums & E.P.'s</a>  |  <a href="../Singles/index.html">Singles</a>   |   Tags</h3>
+
+        <h2>All Tags</h2><p>Click on tag names to view songs and albums with that tag.</p>
+</div>
+
+    <div class="container">
+        <div id="demoCloud2"></div>
+    </div>
+
+ 
+<div align="center">
+        <hr />
+<a href="https://ironserenity.net">Iron Serenity</a>&nbsp;->&nbsp;<a href="../Albums/index.html">Music</a>&nbsp;->&nbsp;Tags
+</div>
+    <div class="container" style="visibility:hidden;">
+        <ul id="demoCloud1"></ul>
+    </div>
+
+</body>
+</html>

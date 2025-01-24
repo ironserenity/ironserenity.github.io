@@ -1,0 +1,22 @@
+<h3>Singles</h3>
+<div class="table" align="center" width="600">
+	<div class="column">
+<a href="Chilled-Out-Blues.html">
+<img width="140"  src="Rel_Thumb_Chilled_Out_Blues.webp" border="0"  alt="Chilled Out Blues" border="0"/><br/>Chilled Out Blues</a>
+	</div>
+
+	<div class="column">
+<a href="Chilled-Out-Blues-Resurrection.html">
+<img width="140"  src="Rel_Thumb_Chilled_Out_Blues_Resurrection.webp" border="0"  alt="Chilled Out Blues Resurrection" border="0"/><br/>Chilled Out Blues Resurrection</a>
+	</div>
+
+	<div class="column">
+<a href="Rise-And-Fall.html">
+<img width="140"  src="Rel_Thumb_Rise_and_Fall.webp" border="0"  alt="Rise and Fall" border="0"/><br/>Rise and Fall</a>
+	</div>
+
+	<div class="column">
+	<a href="Satisfied-Acoustic.html">
+	<img width="140"  src="Rel_Thumb_Satisfied_Acoustic.webp" border="0"  alt="Satisfied (Acoustic)" border="0"/></br>Satisfied (Acoustic)</a>
+	</div>
+</div>
