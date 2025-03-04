@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  
+
+    <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+    <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+
+
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+
+  <title>Custom Audio Player Play Pause Button</title>
+
+    <link rel="canonical" href="https://codepen.io/abikuk/pen/pGzJGy">
+  
+  
+  
+  
+<style>
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height:10px;
+  width: 10px;
+  padding: 10px 14px;
+  z-index: 2;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:20px;
+  background-color: gainsboro;
+}
+.play {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+.pause {
+   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+</head>
+
+<body translate="no">
+  <audio id="track">
+  <source src="Previews/08_The_Great_Escape_2_preview.mp3" type="audio/mpeg" />
+</audio>
+
+<div id="player-container">
+  <div id="play-pause" class="play">Play</div>
+</div>
+
+
+
+
+<!--
+
+06_Satisfied_Acoustic_preview.mp3
+07_Still_Dont_Know_What_It_Means_preview.mp3
+08_The_Great_Escape_2_preview.mp3
+
+  -->
+  
+      <script id="rendered-js" >
+var track = document.getElementById('track');
+
+var controlBtn = document.getElementById('play-pause');
+
+function playPause() {
+  if (track.paused) {
+    track.play();
+    //controlBtn.textContent = "Pause";
+    controlBtn.className = "pause";
+  } else {
+    track.pause();
+    //controlBtn.textContent = "Play";
+    controlBtn.className = "play";
+  }
+}
+
+controlBtn.addEventListener("click", playPause);
+track.addEventListener("ended", function () {
+  controlBtn.className = "play";
+});
+//# sourceURL=pen.js
+    </script>
+
+  
+</body>
+
+</html>

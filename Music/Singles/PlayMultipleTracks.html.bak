@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+  <title>Multiple Audio Player Play Pause Button</title>
+
+<style>
+.player___container .play__pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height: 16px;
+  width: 16px;
+  padding: 8px 8px;
+  z-index: 2;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  background-repeat: no-repeat !important;
+  background-position: center;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  background-color: gainsboro;
+  margin: 1rem 0;
+}
+.play__pause.play {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+.play__pause.pause {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==) !important;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+  
+</head>
+
+<body translate="no">
+<div class="player___container">
+	<audio class="audio__track">
+	<source src="https://cldup.com/qR72ozoaiQ.mp3" type="audio/mpeg" />
+	</audio><div class="play__pause">Play</div>
+</div>
+<div class="player___container">
+	<audio class="audio__track">
+	<source src="https://cldup.com/U75lzp1zQ3.mp3" type="audio/mpeg" />
+	</audio><div class="play__pause">Play</div>
+</div>
+<div class="player___container">
+	<audio class="audio__track">
+	<source src="https://cldup.com/X2AHEc2a8O.mp3" type="audio/mpeg" />
+	</audio><div class="play__pause">Play</div>
+</div>
+
+<!-- Html5 Playlist Audio Player with Vanilla JavaScript https://codepen.io/abikuk/pen/MWBvOya -->
+  
+<script id="rendered-js" >
+const audioControButton = document.querySelectorAll(".play__pause");
+
+function playPauseAudio(btn, track) {
+  if (track.paused) {
+    track.play();
+    btn.classList.add("pause");
+    btn.classList.remove("play");
+  } else {
+    track.pause();
+    btn.classList.add("play");
+    btn.classList.remove("pause");
+  }
+}
+
+// Loop all instance of play buttons
+if (audioControButton.length > 0) {
+  audioControButton.forEach(playButton => {
+    playButton.addEventListener("click", e => {
+      e.preventDefault;
+      let elemContainer = playButton.parentElement;
+      let track = elemContainer.querySelector("audio");
+      stopAllAudio(track);
+      playPauseAudio(playButton, track);
+    });
+  });
+}
+
+function stopAllAudio(elem) {
+  const audios = document.getElementsByTagName("audio");
+  for (var i = 0, len = audios.length; i < len; i++) {if (window.CP.shouldStopExecution(0)) break;
+    if (audios[i] != elem) {
+      audios[i].pause();
+      console.log(audios[i].nextElementSibling);
+      audios[i].nextElementSibling.classList.remove("pause");
+      audios[i].nextElementSibling.classList.add("play");
+    }
+  }window.CP.exitedLoop(0);
+}
+//# sourceURL=pen.js
+</script>
+
+  
+</body>
+
+</html>

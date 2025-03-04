@@ -1,0 +1,191 @@
+<html>
+<head><title>Iron Serenity -> Music -> Instrumentals</title>
+<meta charset="UTF-8">
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
+
+<style>
+th,
+td {
+	border: 0px solid lightgrey;
+	padding: 0.05rem 0.25rem;
+	vertical-align: baseline;
+}
+.player___container .play__pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height: 12px;
+  width: 12px;
+  padding: 6px 6px;
+  z-index: 2;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  background-repeat: no-repeat !important;
+  background-position: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  background-color: gainsboro;
+  margin: 1rem 0;
+}
+.play__pause.play {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+.play__pause.pause {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==) !important;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+<link href="../../../Style.css" rel="stylesheet" type="text/css">
+<style>
+.column {
+    width: 50%;
+}
+</style>
+</head>
+
+<body translate="no">
+
+
+<div class="table" align="center" width="100%">
+	<div class="column">&nbsp;</div>
+	<div class="column">
+<img src="../../../Iron_Serenity_Logo_460x70.png" height="40" border="0" alt="Iron Serenity Logo">
+<p>Original Rock-Blues Music</p>
+	</div>
+	<div class="column" valign=top>
+
+<!-- Menu ======================================================================= -->
+&nbsp;<a href="../index.html">Music</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Photos/index.html">Photos</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Videos/index.html">Videos</a>&nbsp;&nbsp;| 
+&nbsp;<a href="../../../About.html">About</a>&nbsp;&nbsp;|
+&nbsp;<a href="../../../Contact/index.html">Contact</a>&nbsp;
+<!-- End Menu ======================================================================= -->
+
+	</div>
+	<div class="column">&nbsp;</div>
+</div><!-- "table" -->
+
+<div align=center width=70%>
+<h4>Music -> <a href="../index.html">Albums & E.P's</a> -> Instrumentals</h4>
+</div>
+<hr width="90%" color="black">
+
+<div class="table" align="center" width="600">
+
+	<div class="column" width="250">
+<a href="Instrumentals-500x500.jpg"><img src="Thumb_Instrumentals.webp" height="250" border="0" alt="Album Artwork for Instrumentals"></a>
+	</div>
+	
+	<div class="column" align="left">
+<p>
+<i>Instrumentals</i> is an E.P. of original music by Iron Serenity. It is a collection of several instrumental songs, some previously released as singles and/or album tracks plus some previously unreleased material. Mostly guitar based with a heavy blues influence, some songs feature both acoustic and electric guitars and there's piano/keys on a couple. Technically speaking, there is a vocal on track 3 - although it is of a a dog barking.
+
+
+<br/><br/>
+Written & Produced by Pete Ashman, Copyright © 2025, Peter Ashman<br/><br/>
+
+This E.P. is available exclusively on this website.<br/><br/>
+</p>
+
+	</div><!-- "column" -->
+
+</div><!-- "table" -->
+
+
+<hr width="90%" color="black">
+
+
+<div>
+<TABLE cellpadding="1" cellspacing="0" rowspacing="0" border="0" align="center">
+<tr><TH>Preview</TH><TH align="left">Tracklisting</TH><th>m:ss</th></tr>
+<tr><td>	<div class="player___container">
+	<audio class="audio__track"><source src="Previews/01_Chilled_Out_Blues_preview.mp3" type="audio/mpeg" /></audio><div class="play__pause">Play</div>
+	</div>
+</td><td>01. Chilled Out Blues<br/></td><td>3:30</td></tr>
+<tr><td><div class="player___container">
+	</div></td><td height="10">02. February Blues<br/><br/></td><td>4:28</td></tr>
+<tr height="10"><td></td><td height="10">03. October Song<br/><br/></td><td>1:46</td></tr>
+<tr><td><div class="player___container">
+	<audio class="audio__track"><source src="Previews/04_The_Great_Escape_2_preview.mp3" type="audio/mpeg" /></audio>
+	<div class="play__pause">Play</div></td><td>04. The Great Escape 2<br/></td><td>4:38</td></tr>
+<tr><td><div class="player___container">
+	<audio class="audio__track"><source src="Previews/05_Chilled_Out_Blues_Ressurrection_preview.mp3" type="audio/mpeg" /></audio>
+	<div class="play__pause">Play</div>
+	</div></td><td>05. Chilled Out Blues Resurrection</td><td>2:36</td></tr>
+
+</TABLE>
+
+</div>
+<div align=center width=70%>
+
+Total running time 15:47
+<hr width="90%" color="black">
+
+<img height="50" src="../Songs_Mp3.png" border="0"/><h3>Download MP3 E.P.</h3>
+Instantly download this E.P. in high quality 256 - 320kbps MP3.<br/>Includes high resolution image file of the album artwork/cover.<br/>Files contained within a .ZIP file for convenience.<br/><br/>
+<a href="https://payhip.com/b/naZ1P">Download the E.P. now for £5</a>
+<br/><br/>
+<hr width="90%" color="black">
+
+
+<h3>Tags</h3>
+
+<a href="../../Tags/Instrumental">Instrumental</a>&nbsp;&nbsp;
+<a href="../../Tags/Blues">Blues</a>&nbsp;&nbsp;
+<a href="../../Tags/Acoustic">Acoustic</a>&nbsp;&nbsp;
+<a href="../../Tags/Guitar-Solo">Guitar-Solo</a>&nbsp;&nbsp;
+<br/><br/>
+
+<hr width="90%" color="black" width="1">
+
+</div>
+<!-- Html5 Playlist Audio Player with Vanilla JavaScript https://codepen.io/abikuk/pen/MWBvOya -->
+  
+<script id="rendered-js" >
+const audioControButton = document.querySelectorAll(".play__pause");
+
+function playPauseAudio(btn, track) {
+  if (track.paused) {
+    track.play();
+    btn.classList.add("pause");
+    btn.classList.remove("play");
+  } else {
+    track.pause();
+    btn.classList.add("play");
+    btn.classList.remove("pause");
+  }
+}
+
+// Loop all instance of play buttons
+if (audioControButton.length > 0) {
+  audioControButton.forEach(playButton => {
+    playButton.addEventListener("click", e => {
+      e.preventDefault;
+      let elemContainer = playButton.parentElement;
+      let track = elemContainer.querySelector("audio");
+      stopAllAudio(track);
+      playPauseAudio(playButton, track);
+    });
+  });
+}
+
+function stopAllAudio(elem) {
+  const audios = document.getElementsByTagName("audio");
+  for (var i = 0, len = audios.length; i < len; i++) {if (window.CP.shouldStopExecution(0)) break;
+    if (audios[i] != elem) {
+      audios[i].pause();
+      console.log(audios[i].nextElementSibling);
+      audios[i].nextElementSibling.classList.remove("pause");
+      audios[i].nextElementSibling.classList.add("play");
+    }
+  }window.CP.exitedLoop(0);
+}
+//# sourceURL=pen.js
+</script>
+</body>
+</html>
